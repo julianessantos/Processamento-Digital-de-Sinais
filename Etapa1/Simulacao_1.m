@@ -1,5 +1,5 @@
 % Lendo o arquivo de áudio da Igreja
-[audio_igreja, taxa_de_amostragem] = audioread('C:\Users\Julia\OneDrive\Documentos\UFRN\Semestres\9. Nono Periodo (2024.1)\PDS\1U\Simulacao_1\Church Schellingwoude.wav');
+[audio_igreja, taxa_de_amostragem] = audioread('Etapa1/Church Schellingwoude.wav');
 vetor_audio_igreja = audio_igreja(:,1);
 
 % Gravando áudio por 10s
